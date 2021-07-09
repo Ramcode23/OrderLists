@@ -22,10 +22,10 @@
         </ion-list-header>
         <ion-item-sliding *ngFor="let order of doneOrders; let i= index" class="animated fadeInDown">
             <ion-item>
-
-                <h2>
+                <ion-label color="primary" class="ion-text-wrap">
                     {{order.desc}}
-                </h2>
+                </ion-label>
+
 
             </ion-item>
 

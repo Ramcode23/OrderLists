@@ -39,7 +39,7 @@ export class Tab1Page {
   remove(index: number) {
   
     this.doneOrders= this.doneOrders.filter((order,i)=>i!=index);
-debugger;
+
   localStorage.setItem('doneOrders', JSON.stringify(this.doneOrders));
     this.loadOrderDone();
   }
